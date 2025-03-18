@@ -1,0 +1,1 @@
+CloudWatch will collect and store logs from your web server (Apache/Nginx) running on AWS EC2. Follow these steps to enable log monitoring.
