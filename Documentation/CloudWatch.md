@@ -30,12 +30,12 @@ Paste the following (modify as needed):
           "collect_list": [
             {
               "file_path": "/var/log/httpd/access_log",
-              "log_group_name": "WebServerLogs",
+              "log_group_name": "ApacheAccessLogs",
               "log_stream_name": "{instance_id}"
             },
             {
               "file_path": "/var/log/httpd/error_log",
-              "log_group_name": "WebServerErrorLogs",
+              "log_group_name": "ApacheAccessLogs",
               "log_stream_name": "{instance_id}"
             }
           ]
@@ -61,7 +61,7 @@ Check Status:
   Step 4: Check CloudWatch Logs
 1. Go to AWS Console → CloudWatch → Logs
 2. Open Log Groups
-3. Look for "AccessApacheLogs"
+3. Look for "ApacheAccessLogs"
 4. Click on the log stream to view live logs
 
 
