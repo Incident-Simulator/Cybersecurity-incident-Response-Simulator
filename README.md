@@ -1,13 +1,29 @@
-# Cybersecurity-Incident-Response-Simulator
-This hands-on simulation is designed to enhance the understanding of how to respond to real-world cybersecurity incidents, providing practical experience in identifying and mitigating attacks while documenting the process effectively.
+# Cybersecurity Incident Response Simulator
+**📌 Project Overview**
 
+The Cybersecurity Incident Response Simulator is designed to help organizations detect, analyze, and respond to cyber threats in real time. It integrates AWS CloudWatch, Grafana, and a custom web application to monitor logs, identify suspicious activities, and take necessary security actions.
+
+**Features**
+
+- Live Log Monitoring – Captures logs from AWS-hosted websites using CloudWatch.
+
+- Rule-Based Threat Detection – Identifies failed logins, DDoS attempts, and suspicious traffic.
+
+- Grafana Dashboard – Visualizes security events and alerts in real-time.
+
+- Incident Response Actions – Block IPs, restart servers, and take necessary security steps via the web application.
+
+- Incident Playbooks – Documented response plans for various attack scenarios.
 ____
 
-# Objectives
-1. Simulate realistic cybersecurity attacks and scenarios.
-2. Create a controlled virtual environment for testing and learning.
-3. Implement response mechanisms for simulated attacks.
-4. Document and present findings from the simulation.
-5. Enhance team collaboration and role-based learning.
-____
+**📊 How It Works**
 
+1. Website logs are collected via AWS CloudWatch.
+
+2. Grafana fetches and visualizes real-time logs.
+
+3. Logs are identified (failed logins, suspicious patterns).
+
+4. Generate Alerts & Notify Admins (Real-time alerts on threats)
+
+5. Admins take action (block IPs, isolate servers, analyze reports).
